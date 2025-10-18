@@ -1,5 +1,5 @@
 /*CSS reset*/
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -10,22 +10,25 @@ R=>0...255
 G=>0...255
 B=>0...255
 */
-h2{color:rgb(120, 192, 145)}
+h2 {
+    color: rgb(120, 192, 145)
+}
 
-div{
+div {
     background-color: #004d8e;
 
-}
-a {
-    color: #FFFFFF;
-    /*text-decoration altera a decoraçao do testo
-    none faz com que o texto não tenha nenhuma decoração*/
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
+    a {
+        color: #FFFFFF;
+        /*text-decoration altera a decoraçao do testo
+        none faz com que o texto não tenha nenhuma decoração*/
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
 
-}
-/*hover é a ação que ocorre quando passar o omouse por cima do elemento*/
-a:hover{ 
-    color: #ff6500;
+    }
+
+    /*hover é a ação que ocorre quando passar o omouse por cima do elemento*/
+    a:hover {
+        color: #ff6500;
+    }
 }
