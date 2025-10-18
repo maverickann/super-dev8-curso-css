@@ -1,0 +1,71 @@
+.fonte-imperial-script {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    font-align: center
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+
+}
+
+.italico {
+    font-style: italic;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.minusculo {
+    text-transform: lowercase;
+
+}
+
+.capitalizar {
+    text-transform: capitalize;
+
+}
+
+.alterar-fonte {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha-maior {
+    line-height: 1.9;
+}
+
+.escapamento-entre-linhas {
+    letter-spacing: 0.12em;
+}
+
+.escapamento-entre-palavras {
+    word-spacing: 0.6em;
+}
+
+.alinhamento-direita {
+    text-align: right;
+}
+
+.alinhamento-centro {
+    text-align: center
+}
+
+.alinhamento-esquerda {
+    text-align: left
+}
+
+.paragrafo-recuo-primeira-linha {
+    text-indent: 2em;
+}
+
+.paragrafo-hifenizacao-automatica {
+    hyphens: auto;
+    text-align: justify;
+}

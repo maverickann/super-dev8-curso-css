@@ -88,17 +88,17 @@ left => parte lateral
 }
 
 .borda-radius-iguais {
-    border: #12ab;
+    border: 8px #6e6a59 dashed;
     border-radius: 300px;
 }
 
 .borda-radius-diferentes:hover {
-    border-color: #6e6a59;
+    border-color:8px #6e6a59 ;
     cursor: pointer;
 }
 
 .borda-radius-diferentes {
-    border: 8px #12Ab23;
+    border: 8px #12Ab23 dashed;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 30px;
