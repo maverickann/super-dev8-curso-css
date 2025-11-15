@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/CSS/fexbox-direction.css">
+</head>
+
+<body>
+    <a href="../../index.html">voltar</a>
+    <h1>Exemplos Basicos de Flexbox</h1>
+    <div class="section">
+        <h2>
+            Exemplo 1 - Linha (row)</h2>
+        <p Class="descricao">
+            <strong>display:flex;</strong> + <strong>flex-direction:row/;</strong>(padrão).
+            os itens ficam lado a horizontal.
+        </p>
+        <div class="flex-container exemplo1">
+            <div class="item">item 1</div>
+            <div class="item">item 2</div>
+            <div class="item">item 3</div>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>
+            Exemplo 2 - linha (row-reverse)</h2>
+        <p Class="descricao">
+            <strong>display-direction:column;</strong>
+            os itens ficam lado a horizontal só que da direita para a esquerda.
+        </p>
+        <div class="flex-container exemplo2">
+            <div class="item">item 1</div>
+            <div class="item">item 2</div>
+            <div class="item">item 3</div>
+
+        </div>
+    </div>
+
+
+    <div class="section">
+        <h2>
+            Exemplo 3- Coluna (column)</h2>
+        <p Class="descricao">
+            <strong>display-direction:column;</strong>
+            os itens ficam empilhados na vertical.
+        </p>
+        <div class="flex-container exemplo3">
+            <div class="item">item 1</div>
+            <div class="item">item 2</div>
+            <div class="item">item 3</div>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>
+            Exemplo 4 - Coluna (column-reverse)</h2>
+        <p Class="descricao">
+            <strong>display-direction:column;</strong>
+            os itens ficam empilhados na vertical ao contrario.
+        </p>
+        <div class="flex-container exemplo4">
+            <div class="item">item 1</div>
+            <div class="item">item 2</div>
+            <div class="item">item 3</div>
+
+        </div>
+        <div class="section">
+            <h2>align-itens</h2>
+            <p>Define como os itens são alimhados verticalmente</p>
+
+            <h3>align-itens: flex-start</h3>
+
+            <div class="flex-container exemplo1 flex-altura align-items-flex-start mb-2">
+                <div class="item item-baixo">item baixo</div>
+                <div class="item item-medio">item médio</div>
+                <div class="item item-alto">item alto</div>
+
+            </div>
+            <h3>align-itens: center</h3>
+
+            <div class="flex-container exemplo1 flex-altura align-items-center mb-2">
+                <div class="item item-baixo">item baixo</div>
+                <div class="item item-medio">item médio</div>
+                <div class="item item-alto">item alto</div>
+
+            </div>
+            <h3>align-itens: flex-end</h3>
+
+            <div class="flex-container exemplo1 flex-altura align-items-flex-end mb-2">
+                <div class="item item-baixo">item baixo</div>
+                <div class="item item-medio">item médio</div>
+                <div class="item item-alto">item alto</div>
+
+            </div>
+            <h3>align-itens:stretch</h3>
+
+            <div class="flex-container exemplo1 flex-altura align-items-stretch mb-2">
+                <div class="item item-baixo">item baixo</div>
+                <div class="item item-medio">item médio</div>
+                <div class="item item-alto">item alto</div>
+
+            </div>
+            <h3>align-itens:baseline</h3>
+
+            <div class="flex-container exemplo1 flex-altura align-items-baseline mb-2">
+                <div class="item item-baixo">item baixo</div>
+                <div class="item item-medio">item médio</div>
+                <div class="item item-alto">item alto</div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <a href="/public/flexbox/flexblox-justify.html">Continuação</a>
+
+
+
+</body>
+
+</html>

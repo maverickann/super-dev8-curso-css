@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+div.section {
+    background-color: #fff;
+    border: 1 pc solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 10px;
+
+}
+
+.selction h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.descriçao {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.item {
+    background-color: #8b45e0;
+    color: #fff;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px dashed #999;
+    padding: 10px;
+    min-height: 80px;
+    background-color: #fafafa;
+}
+
+
+.exemplo1 {
+    flex-direction: row;
+}
+
+.exemplo2 {
+    flex-direction: row-reverse;
+}
+
+.exemplo3 {
+    flex-direction: column;
+}
+
+.exemplo4 {
+    flex-direction: column-reverse;
+
+}
+
+.item-baixo{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.item-medio{
+    font-size: 16px;
+    padding: 10px;
+  
+}
+
+.item-alto{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.flex-altura {
+    min-height: 120px;
+}
+
+.align-items-flex-start {
+    align-items: flex-start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-flex-end {
+    align-items: flex-end;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
