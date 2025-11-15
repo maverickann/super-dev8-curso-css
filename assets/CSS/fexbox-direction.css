@@ -1,3 +1,8 @@
+:root{
+    --section-backgroud-color: #ffff
+    --
+    --;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -12,7 +17,7 @@ h1 {
 }
 
 div.section {
-    background-color: #fff;
+    background-color: var(section-backgroud-color);
     border: 1 pc solid #ddd;
     border-radius: 8px;
     padding: 16px;
@@ -30,7 +35,14 @@ div.section {
     color: #555;
     margin-bottom: 12px;
 }
-
+.bot{
+    background-color: #39b9c4d3;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
 .item {
     background-color: #8b45e0;
     color: #fff;
@@ -86,7 +98,7 @@ div.section {
 }
 
 .flex-altura {
-    min-height: 120px;
+    min-height: 220px;
 }
 
 .align-items-flex-start {
@@ -108,3 +120,59 @@ div.section {
 .align-items-baseline {
     align-items: baseline;
 }
+.conjunto-a{
+    font-size: 5px;
+padding: 2px 3px 4px 5px;
+}
+.conjunto-b{
+    font-size: 10px;
+padding: 5px;
+padding-bottom: 20px;
+}
+.conjunto-c{
+    font-size: 12px;
+padding: 18px;
+padding-bottom: 20px;
+}
+.conjunto-d{
+    font-size: 16px;
+
+padding-bottom: 20px;
+}
+.conjunto-e{
+    font-size: 24px;
+padding: auto;
+}
+
+.align-content-flex-start {
+    flex-wrap:wrap;
+   align-content: flex-start;
+}
+
+.align-content-center {
+    flex-wrap:wrap;
+   align-content: center;
+}
+
+.align-content-flex-end {
+    flex-wrap:wrap;
+   align-content: flex-end;
+}
+
+.align-content-stretch {
+    flex-wrap:wrap;
+   align-content: stretch;
+}
+
+.align-content-space-between {
+    flex-wrap:wrap;
+   align-content: space-between;
+}
+.align-content-space-around {
+    flex-wrap:wrap;
+    align-content: space-around;
+ }
+ .align-content-space-evenly {
+    flex-wrap:wrap;
+    align-content: space-between;
+ }

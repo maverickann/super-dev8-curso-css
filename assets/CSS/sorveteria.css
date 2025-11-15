@@ -1,0 +1,72 @@
+:root {
+    --backgoud-color: #189c8e;
+    --colorg: #3e8e84;
+    --colorw: hsl(0, 0%, 100%);
+    --backgroud-color-buttom: #49ab9f;
+}
+
+body {
+    background-color: #e3f8fb;
+    margin: 30px;
+}
+
+.menu {
+    background-color: var(--backgoud-color);
+    color: var(--colorw);
+    border-radius: 30px;
+    border: 1px none #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+
+
+}
+
+a {
+    color: var(--colorw);
+}
+
+button {
+    border-radius: 30px;
+    background-color: var(--backgroud-color-buttom);
+    border: none;
+
+    color: var(--colorw);
+}
+
+.left {
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+h2 {
+    color: var(--colorg);
+}
+
+#dia {
+    background-color: #ffffff;
+
+    border-width: 6px 8px;
+
+    border: 1px none #ffffff;
+    border-radius: 10px;
+
+
+    justify-content: space-between;
+    width: 85%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+    padding: 100px;
+
+
+}
+
+#imgsorvete {
+
+    font-size: 100px;
+}
